@@ -6,12 +6,13 @@
   "engines": {
     "node": "10.15.3"
   },
-  "main": "index.js",
+  "main": "serv/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node serv/index.js"
   },
   "dependencies": {
     "@koa/cors": "^2.2.3",
+    "bulma": "^0.7.5",
     "dotenv": "^6.2.0",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
