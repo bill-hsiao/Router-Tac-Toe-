@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const app = require('./main')
+const app = require('./app')
 
 const port = 4000
 
